@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <!-- *   Using html to display -->
+
+    <!-- <div id="root">
+        <h1>Hello React!</h1>
+    </div> -->
+
+    <!--* _______________________________________________________________ -->
+
+    <!-- ?   Using javascript to display -->
+    <!-- <div id="root"></div>
+        <script>
+          const heading =document.createElement("h1");
+          heading.innerHTML="Hello World from JavaScipt";
+          const root =document.getElementById("root");
+          root.appendChild(heading);
+        </script> -->
+ <!-- ? _______________________________________________________________________ -->
+       
+ <!-- *     Using react via cdn links to display -->
+       <div id="header">
+        <h1>I am Rishav also</h1>
+       </div>
+        <div id="root">
+             <h1>I am Animesh</h1> <!--this will get replaced by render method --> 
+        </div>
+        <!-- ! <script src ="App.js"></script> if Script is put here then it will not run -->
+        
+        <!-- <script>
+           const ele = React.createElement("h1",{},"hello world from react");
+           const root = ReactDOM.createRoot(document.getElementById("root"));
+           root.render(ele);
+        </script> -->
+        <script type="module" src ="App.js"></script> 
+        <!-- ?so,we should maintain this order first we have to embbed cdn links then we can put external js -->
+        
+</body>
+</html>
